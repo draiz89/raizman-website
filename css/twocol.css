@@ -1,0 +1,40 @@
+{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h1{font-family: 'Suranna', serif;
+}
+
+a {
+	color: black;
+	cursor: default;
+}
+
+a:hover {
+	color: Gainsboro;
+	text-decoration: none;
+}
+
+
+.leftside, .center, .rightside {
+	height:50vh;
+	width:100%;
+}
+
+@media screen and (min-width:768px)
+{
+
+	.leftside, .center, .rightside {
+		height:100vh;
+	}
+}
+.leftside {
+	background: royalblue;
+}
+
+.rightside {
+	background: #076652;
+}
